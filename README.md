@@ -23,8 +23,8 @@ FROM hr.job_history;
 
  # 4) ¿Cuál es la diferencia entre WHERE y un HAVING en SQL?
 
-WHERE filtra filas antes del agrupado
-HAVING filtra después de agrupar
+WHERE filtra filas antes de agrupar; no admite funciones agregadas (actúa sobre cada fila).
+HAVING filtra grupos después de GROUP BY; sí admite agregados (SUM, COUNT, AVG…).
 
 
  # 5) ¿Qué es la normalización en bases de datos SQL?. ¿Cuáles son las diferentes formas normales?
