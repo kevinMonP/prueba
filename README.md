@@ -28,7 +28,7 @@ HAVING filtra grupos después de GROUP BY; sí admite agregados (SUM, COUNT, AVG
 
 
  # 5) ¿Qué es la normalización en bases de datos SQL?. ¿Cuáles son las diferentes formas normales?
-
+La normalizacion es un proceso que busca reducir la redundancia de datos, evitando asi duplicaciones y asegura que las modificaciones no causen inconsistencias. Hay tres reglas llamadas formas normales; la primera debe cumplir que cada tabla debe contener un solo valor y cada fila sea única,la segunda quita las dependencias parciales y la tercera hace que todos los atributos no clave deben depender de la PK
 
  # 6) ¿Qué es un índice en SQL y por qué se utiliza?
 son estructuras que agilizan la búsqueda de datos en una tabla de base de datos
